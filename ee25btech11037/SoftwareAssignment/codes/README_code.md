@@ -1,5 +1,8 @@
 # SVD Image Compression
+EE1030 Matrix Theory (Dr. GVV Sharma)  
+By: Divyansh Maheshwari (EE25BTECH11037)
 
+## Overview
 A C implementation of image compression using Singular Value Decomposition (SVD). This project decomposes grayscale images using SVD and allows reconstruction with varying levels of compression.
 
 ## Features
@@ -123,14 +126,5 @@ python codes/python/plot.py photo
 
 This will produce compressed versions of the image with different compression ratios and corresponding error analysis plots.
 
-
-## Author
-
-Divyansh Maheshwari 
-
-EE25BTECH11037
-
-## Acknowledgments
-
-- SVD implementation based on the Jacobi eigenvalue algorithm
-- Image processing using LibJPEG and LibPNG libraries
+## Reference
+- Youtube: Gilbert Strang's video on Singular Value Decomposition 
