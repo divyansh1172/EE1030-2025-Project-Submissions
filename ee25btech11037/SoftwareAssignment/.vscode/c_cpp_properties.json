@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+
+                "/opt/homebrew/Cellar/jpeg/9f/include",
+                "/opt/homebrew/opt/jpeg/include",
+
+                "/opt/homebrew/Cellar/libpng/1.6.50/include",
+                "/opt/homebrew/opt/libpng/include"
+            ],
+            "browse": {
+                "path": [
+                    "/opt/homebrew/Cellar/jpeg/9f/include",
+                    "/opt/homebrew/opt/jpeg/include",
+                    "/opt/homebrew/Cellar/libpng/1.6.50/include",
+                    "/opt/homebrew/opt/libpng/include"
+                ]
+            },
+            "defines": [],
+            "macFrameworkPath": [
+                "/System/Library/Frameworks",
+                "/Library/Frameworks"
+            ],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "macos-clang-arm64"
+        }
+    ],
+    "version": 4
+}
